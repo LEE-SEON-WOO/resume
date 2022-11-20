@@ -263,23 +263,43 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list.items]]
         details = "**TAL-CoLR: Temporal Action Localization using Contrastive Learning Representation**, Jong-Gu Kim, ***Seon-Woo Lee***, Jung-Mu Choi, So-Hee Yong, Na-Hyun Ko, Jang-Woo Kwon, The KITS international Conference 2022, June, pp.851-854"
         [[params.information.list.items]]
+        details = "**심층신경망 모델을 이용한 대기오염망 자료확정 알고리즘 연구**, ***이선우***, 양호준, 이문형, 최정무, 윤세환, 권장우, 박지훈, 정동희, 신혜정, 융합정보논문지, 2021, vol.11, no.11, pp. 57-65 (9 pages) DOI : 10.22156/CS4SMB.2021.11.11.057"
+        [[params.information.list.items]]
+        details = "**A Study on Deep Learning Application of Vibration Data and Visualization of Defects for Predictive Maintenance of Gravity Acceleration Equipment**, ***Seon-Woo Lee***, HyeonTak Yu, HoJun Yang, InSeo Song, JungMu Choi, JaeHeung Yang, GangMin Lim, Kyu-Sung Kim, ByeongKeun Choi, and JangWoo Kwon. 2021, Applied Sciences 11, no. 4: 1564, https://doi.org/10.3390/app11041564 "
+        [[params.information.list.items]]
         details = "**적대적 생성 신경망을 활용한 비지도 학습 기반의 대기 자료 이상 탐지 알고리즘 연구**, 양호준, ***이선우***, 이문형, 김종구, 최정무, 신유미, 이석채, 권장우, 박지훈, 정동희, 신혜정, Journal of Convergence for Information Technology (JCIT), 2022, vol.12, no.4, pp. 260-269 (10 pages)"
+        [[params.information.list.items]]
+        details = "**재활 보조기기를 위한 FDM 3D프린팅 기반 PLA 출력물의 어닐링에 따른 최적화**, 김용래, ***이선우***, 김주형, 권장우, 이선곤. 2020, 재활복지공학회논문지, Vol. 14, No. 1, pp. 50-58."
+        [[params.information.list.items]]
+        details = "**이종재료 FDM 3D프린팅 유연저항센서 개발 및 특성 연구**, 이선곤, ***이선우***, 김용래, 박지혜 and 김주형, 2018, 재활복지공학회논문지, Vol. 12, No. 4, pp. 268-274."
+        [[params.information.list.items]]
+        details = "**이상치 온도 제거를 통한 열화상 사진의 자동 컬러맵 조정에 대한 방법**, ***이선우***, 전이슬, 이준수 and 김주형, 대한기계학회논문집 A, Vol. 44, No. 12, pp. 897-907."
+        [[params.information.list.items]]
+        details = "**Application and Performance Analysis of Double Pruning Method for Deep Neural Networks**, ***Lee, Seon-Woo***, Ho-Jun Yang, Seung-Yeon Oh, Mun-Hyung Lee, and Jang-Woo Kwon. Journal of Convergence for Information Technology, vol. 10, no. 8, Convergence Society for SMB, Aug. 2020, pp. 23–34, doi:10.22156/CS4SMB.2020.10.08.023."
+        [[params.information.list.items]]
+        details = "**Split-Attention 백본 네트워크를 활용한 차선 인식에 관한 연구.**, 송인서, ***이선우***, 권장우 and 원종훈, 2020, 한국ITS학회 논문지, Vol. 19, No. 5, pp. 178-188."
+        [[params.information.list.items]]
+        details = "**A Filament Supply System Capable of Remote Monitoring and Automatic Humidity Control for 3D Printer**, SoonWon Kwon, SeonWoo Lee, YongRae Kim, YoungChan Oh, SunKon Lee, JooHyung Kim, JangWoo Kwon, Journal of Sensors, vol. 2020, Article ID 8846466, 10 pages, 2020. https://doi.org/10.1155/2020/8846466"
+        [[params.information.list.items]]
+        details = "**기계학습을 활용한 부적합 열화상 이미지 판별 시스템**, 권순원, 송인서, ***이선우***, 이준수, 김주형, 임강민 and 권장우, 재활복지공학회논문지, 2020, vol.14, no.2, pp. 102-111 (10 pages)"
+        [[params.information.list.items]]
+        details = "**고밀도 그리드 모델과 앵커모델을 이용한 동적 객체검지 향상에 관한 연구**, 윤보른, ***이선우***, 최경호, 이상민 and 권장우. 한국ITS학회 논문지, Vol 17, no.3, 2018, pp. 98-110, doi: https://doi.org/10.12815/kits.2018.17.3.98"
+        [[params.information.list.items]]
+        details = "**듀얼 노즐 FDM 3D프린터를 이용한 정전용량 유연-압력센서 개발 및 분석**, ***이선우***, 이선곤, and 권장우. 재활복지공학회논문지, Vol. 12, no.4 (2018) : pp. 232-240. doi: https://doi.org/10.21288/resko.2018.12.4.232"
+        [[params.information.list.items]]
+        details = "**3축 가속도 센서와 족압 감지 시스템을 활용한 보행 모니터링 시스템 개발**, ***이선우***, 이선우, 정현기, 변기문 and 권장우. 재활복지공학회논문지 10, no.3 (2016) : 199-206.doi: http://dx.doi.org/10.21288/resko.2016.10.3.199"
+        [[params.information.list.items]]
+        details = "**TAL-CoLR: Temporal Action Localization using Contrastive Learning Representation**, Jong-Gu Kim, ***Seon-Woo Lee***, Jung-Mu Choi, So-Hee Yong, Na-Hyun Ko, Jang-Woo Kwon, The KITS international Conference 2022, June, pp.851-854"
         [[params.information.list.items]]
         details = "**딥러닝 모델을 이용한 3차원 좌표계 데이터 압축**, 최정무, ***이선우***, 정회준, 권장우, 고훈준, 강성관, *Conference of Korea Artificial-Intelligence Convergence Technology Society*, 2021"
         [[params.information.list.items]]
         details = "**대기오염측정망 자료확정 알고리즘 개발을 위한 비지도학습 적용**, *A Study on the Air Pollution Monitoring Network Algorithm Using Unsupervised Learning,(Best Paper Award)*, ***이선우***, 양호준, 이문형,최정무, 정회준, 신혜정, and 권장우, Conference of Korea Artificial-Intelligence Convergence Technology Society, 2021"
         [[params.information.list.items]]
-        details = "**4채널 전극과 무선통신을 이용한 생체 신호 시스템 구현**, *Bio-signal System Implementation with Multi-channel-electrode and Wireless Communication,* ***이선우***, 정현기, 유인환, and 권장우, *10*th *RESKO Technical Conference 2016, Korea, Nov. 3-5, 2016, pp. 83-85*"
-        [[params.information.list.items]]
-        details = "**DBM을 활용한 EMR 기반의 스트로크환자의 재활프로토콜 추천 시스템**, *EMR-based Stroke Patient Rehabilitation Protocol Recommendation System Using DBN*, ***이선우***, 박경남, 김세진, 원인수, and 권장우, 11*th* *RESKO Technical Conference 2017, Apr. 27-28, Korea, 2017, pp. 115-118* "
-        [[params.information.list.items]]
-        details = "**Shadow removal in moving objects detection images based on histogram**, ***Seonwoo Lee,*** Insu Won, Sangmin Lee, and Jangwoo Kwon, *4*th* *International Conference on Information, System and Convergence Applications,* *Aug. 13 -18, 2017, Ulaanbaatar, Mongolia* "
-        [[params.information.list.items]]
         details = "**3D 프린터 필라멘트 공급 제어 모니터링 시스템(Best paper),**, *3D Printer Filament Control Monitoring System,* *설현우,* ***이선우****, 정현기, and 권장우, *KSPE 2017 Autumn Conference, Dec. 13-15, 2017* "
         [[params.information.list.items]]
         details = "**다중노즐 3D 프린터의 모니터링 시스템을 활용한 사용자 맞춤형 근골격계 재활기기 소재에 관한 연구,** ***이선우***, 한현정, 최민석, 이선곤, 김주형, 김용래, and 권장우,  *12*th *RESKO Technical Conference 2018. Apr. 27-28, pp. 115-118*"
         [[params.information.list.items]]
-        details = "**3D프린터 원격 제어 및 상태 모니터링 시스템,**, *3D Printer Remote Control And Condition Monitoring System,*, ***이선우***, 김주형, 이선곤, 권순원, 최민석, 한현정, 김용래, and 권장우, *KSPE 2018 Spring Conference, May. 9-11, 2018*"
+        details = "**3D프린터 원격 제어 및 상태 모니터링 시스템,**, ***이선우***, 김주형, 이선곤, 권순원, 최민석, 한현정, 김용래, and 권장우, *KSPE 2018 Spring Conference, May. 9-11, 2018*"
         [[params.information.list.items]]
         details = "**온습도 조절 기능이 포함된 3D프린터 필라멘트 공급장치 모니터링 및 제어 시스템,**  *3D Printer Filament Supply Monitoring and Control System with Temperature and Humidity Control,*  *권순원,* ***이선우***, 김용래, 이선곤, 김주형, and 권장우,  *11*th *RESKO Technical Conference 2018, Nov. 08-10, 2018, pp. 110-112.*"
         [[params.information.list.items]]
@@ -290,7 +310,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "**가상의 차량 번호판 생성을 통한 심층 신경망학습에 관한 최적 데이터 개수연구,**  *Optimal Numerical Research on Deep Neural Network Learning though Artificial Car License Plate Generation,*  ***이선우***, 사이드라술콘, 권장우, *한국ITS학회 2019년도 춘계학술대회, Apr. 18-20, Korea*"
         [[params.information.list.items]]
         details = "**The method of generating license plate data in a fixed camera environment by multiple histogram comparison and Grid Search(Best Paper Award)**,  *SeonWoo Lee, SoonWon Kwon, Jangwoo Kwon,*  *International Conference on Recent Advancements in Computing in AI, IoT and Computer Engineering Technology(CICET2019), 21-23,Oct, 2019, Taiwan*"
-
+        [[params.information.list.items]]
+        details = "**4채널 전극과 무선통신을 이용한 생체 신호 시스템 구현**, *Bio-signal System Implementation with Multi-channel-electrode and Wireless Communication,* ***이선우***, 정현기, 유인환, and 권장우, *10*th *RESKO Technical Conference 2016, Korea, Nov. 3-5, 2016, pp. 83-85*"
+        [[params.information.list.items]]
+        details = "**DBM을 활용한 EMR 기반의 스트로크환자의 재활프로토콜 추천 시스템**, *EMR-based Stroke Patient Rehabilitation Protocol Recommendation System Using DBN*, ***이선우***, 박경남, 김세진, 원인수, and 권장우, 11*th* *RESKO Technical Conference 2017, Apr. 27-28, Korea, 2017, pp. 115-118* "
+        [[params.information.list.items]]
+        details = "**Shadow removal in moving objects detection images based on histogram**, ***Seonwoo Lee,*** Insu Won, Sangmin Lee, and Jangwoo Kwon, *4*th* *International Conference on Information, System and Convergence Applications,* *Aug. 13 -18, 2017, Ulaanbaatar, Mongolia* "
 
         [[params.information.list]]
         title = "Patent"
