@@ -1,0 +1,352 @@
+# Page settings
+
+baseURL = "https://LEE-SEON-WOO.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "SeonWoo Lee"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Lee SeonWoo"
+        tagline = "Software/DeepLearning Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "InCheon/Seoul"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+82 4567 8903"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "x21999@inha.ac.kr"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://inha-hci.github.io/HCI-Lab/"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "C/C++"
+        [[params.skills.list.items]]
+        details = "HWP, Excel, PowerPoint, Word"
+        [[params.skills.list.items]]
+        details = "Object-oriented Design"
+        [[params.skills.list.items]]
+        details = "Git"
+
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "PhD.c in Computer Science"
+        university = "Inha University"
+        dates = "2019.3 ~ Now"
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "Inha University"
+        dates = "2017.3 - 2019.2"
+        [[params.education.list]]
+        degree = "BSc Computer Information Engineering"
+        university = "Inha University"
+        dates = "2017.2"
+
+
+    [params.awards] 
+        enable = true
+
+        [[params.awards.list]]
+        name = "제3회 ITRC디자인 융합 아이디어 공모전"
+        body = "특별상"
+        date = "2017"
+
+        [[params.awards.list]]
+        name = "한국정밀공학회 2017 추계학술대회"
+        body = "우수논문상"
+        date = "2017"
+
+        [[params.awards.list]]
+        name = "CICET(The International Conference on Recent Advancements in Computing, IoT and Computer Engineering Technology)"
+        body = "Best Paper"
+        date = "2018"
+        [[params.awards.list]]
+        name = "CICET(The International Conference on Recent Advancements in Computing, IoT and Computer Engineering Technology)"
+        body = "Best Paper"
+        date = "2019"
+        [[params.awards.list]]
+        name = "한국인공지능융합 기술학회 춘계학술대회"
+        body = "우수논문상"
+        date = "2021"
+        [[params.awards.list]]
+        name = "한국인공지능융합 기술학회 추계학술대회"
+        body = "우수논문상"
+        date = "2021"
+        [[params.awards.list]]
+        name = "2022-1 아랩 액셀러레이팅 프로그램"
+        body = "우수상"
+        date = "2022"
+        [[params.awards.list]]
+        name = "2022학년도 대학원 튜터링"
+        body = "우수상"
+        date = "2022"
+
+
+
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+        name = "Korea"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate"
+
+
+    [params.interests]
+        enable = true
+        [[params.interests.list]]
+        name = "ITS(Intelligent Transport System)"
+        [[params.interests.list]]
+        name = "Deep Learning Compiler/GEMM(General Matrix Multiplication)"
+        [[params.interests.list]]
+        name = "Anomaly Detection"
+
+
+    [params.summary]
+        enable = true
+        text = "Hello, World!, My name is Seon-Woo Lee"
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "K-Software Empowerment BootCamp"
+        meta = "정보통신기획평가원(IITP)"
+        tagline = "2022-06-01 ~ 2022-12-31, 책임연구원"
+
+        [[params.projects.list]]
+        title = "대조학습기법을 이용한 시간적 행동 탐지 기술에 관한연구"
+        meta = "4단계 BK21 사업(교내_학술연구회)"
+        tagline = "2022-06-13 ~ 2022-12-31, 연구책임"
+
+        [[params.projects.list]]
+        title = "AI 운전능력평가 표준화 및 평가 프로세스 개발"
+        meta = "과학치안진흥센터"
+        tagline = "2021-04-01 ~ 2021-12-31, 연구참여"
+
+        [[params.projects.list]]
+        title = "드라이빙 시뮬레이터 성능 향상 기술"
+        meta = "한국에이브이엘(주)"
+        tagline = "2021-06-01 ~ 2022-05-31, 연구참여"
+
+        [[params.projects.list]]
+        title = "시각, 청각, 언어, 발달 장애인용 농작업 지능형 보조시스템 개발"
+        meta = "근로복지공단 재활공학연구소"
+        tagline = "2020-04-01 ~ 2022-12-31, 연구참여"
+
+        [[params.projects.list]]
+        title = "인공지능을 이용한 이상진단 창의기술 학술연구회"
+        meta = "4단계 BK21 사업"
+        tagline = "2021-07-01 ~ 2022-01-31, 연구책임"
+
+        [[params.projects.list]]
+        title = "Python 기반의 이상 진동 신호 감지를 위한 머신러닝 지도학습/비지도학습 코드 생성"
+        meta = "주식회사ATG(일반수탁연구지원사업)"
+        tagline = "2019.12.01 ~ 2020.02.29, 연구참여"
+
+        [[params.projects.list]]
+        title = "큐브위성용 국상화 모듈 및 IR 탑재체의 우주환경 검증 연구"
+        meta = "드림스페이스월드주식회사(학술(기술)연구용역사업)"
+        tagline = "2019.10.10 ~ 2020.01.31, 연구참여"
+
+        [[params.projects.list]]
+        title = "자동 예측진단(2단계) 기술개발 용역"
+        meta = "주식회사ATG(일반수탁연구지원사업)"
+        tagline = "2019.01.28 ~ 2022.01.27, 연구참여"
+
+        [[params.projects.list]]
+        title = "무인 교통단속 및 교통정보 수집 장치 개발 환경 구축 및 연계 기술 개발"
+        meta = "학술(기술)연구용역사업"
+        tagline = "2019.05.27 ~ 2019.10.31, 연구참여"
+
+        [[params.projects.list]]
+        title = "작업자 및 사회적약자 맞춤형 근골격 안전시스템 구현을 위한 복합 3D 프린팅 활용 창의 기술 개발"
+        meta = "과학기술정보통신부"
+        tagline = "2016.07 ~ 2019.06, 연구참여"
+
+        [[params.projects.list]]
+        title = "스마트한 주파수 이용을 위한 스팩트럼 및 전파기술"
+        meta = "과학기술정보통신부"
+        tagline = "2017.03 ~ 2019.12, 연구참여"
+
+        [[params.projects.list]]
+        title = "인공지능을 활용한 콘텐츠 창작 기술"
+        meta = "과학기술정보통신부"
+        tagline = "2017.06 ~ 2022.6, 연구참여"
+
+        [[params.projects.list]]
+        title = "청소년 융합 창의기술 인재센터"
+        meta = "산업통상자원부"
+        tagline = "2016 ~ 2019.02, 연구참여"
+        
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Researcher & Professor"
+        dates = "2022.6 - Present"
+        company = "IITP"
+        details = "K-SoftWare BootCamp Academy, As participating universities, Sungkyunkwan University and Kyonggi University were joined, and as participating companies, SK and Hangeul and Computer were joined."
+        [[params.experience.list.items]]
+        details = "AI, Python, DB Lecture"
+        [[params.experience.list.items]]
+        details = "Coding education for non-majors students"
+        
+        [[params.experience.list]]
+        title = "Visiting Professor"
+        dates = "2022-3 - 2022-09"
+        company = "Inha University"
+        details = "SQ Programming - Database Lecture (MySQL) in IPP Dual Joint Training Center"
+
+        [[params.experience.list]]
+        title = "Part-time instructor"
+        dates = "2021-2 ~ 2022-3"
+        company = "Kyunggi University"
+        details = "Introduction AI Logic"
+
+        [[params.experience.list]]
+        title = "Part-time instructor"
+        dates = "2020-1~2021-2"
+        company = "Inha Technical College"
+        details = "Introduction Machine Learning & Applied Machine Learning"
+
+        [[params.experience.list]]
+        title = "Part-time instructor"
+        dates = "2020-1~2020-2"
+        company = "Inha University"
+        details = "Firmware Development(RaspberryPi) & Computer Programming(Python)"
+
+        
+
+    [params.information]
+        enable = true
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "**TAL-CoLR: Temporal Action Localization using Contrastive Learning Representation**, Jong-Gu Kim, ***Seon-Woo Lee***, Jung-Mu Choi, So-Hee Yong, Na-Hyun Ko, Jang-Woo Kwon, The KITS international Conference 2022, June, pp.851-854"
+        [[params.information.list.items]]
+        details = "**적대적 생성 신경망을 활용한 비지도 학습 기반의 대기 자료 이상 탐지 알고리즘 연구**, 양호준, ***이선우***, 이문형, 김종구, 최정무, 신유미, 이석채, 권장우, 박지훈, 정동희, 신혜정, Journal of Convergence for Information Technology (JCIT), 2022, vol.12, no.4, pp. 260-269 (10 pages)"
+        [[params.information.list.items]]
+        details = "**딥러닝 모델을 이용한 3차원 좌표계 데이터 압축**, 최정무, ***이선우***, 정회준, 권장우, 고훈준, 강성관, *Conference of Korea Artificial-Intelligence Convergence Technology Society*, 2021"
+        [[params.information.list.items]]
+        details = "**대기오염측정망 자료확정 알고리즘 개발을 위한 비지도학습 적용**, *A Study on the Air Pollution Monitoring Network Algorithm Using Unsupervised Learning,(Best Paper Award)*, ***이선우***, 양호준, 이문형,최정무, 정회준, 신혜정, and 권장우, Conference of Korea Artificial-Intelligence Convergence Technology Society, 2021"
+        [[params.information.list.items]]
+        details = "**4채널 전극과 무선통신을 이용한 생체 신호 시스템 구현**, *Bio-signal System Implementation with Multi-channel-electrode and Wireless Communication,* ***이선우***, 정현기, 유인환, and 권장우, *10*th *RESKO Technical Conference 2016, Korea, Nov. 3-5, 2016, pp. 83-85*"
+        [[params.information.list.items]]
+        details = "**DBM을 활용한 EMR 기반의 스트로크환자의 재활프로토콜 추천 시스템**, *EMR-based Stroke Patient Rehabilitation Protocol Recommendation System Using DBN*, ***이선우***, 박경남, 김세진, 원인수, and 권장우, 11*th* *RESKO Technical Conference 2017, Apr. 27-28, Korea, 2017, pp. 115-118* "
+        [[params.information.list.items]]
+        details = "**Shadow removal in moving objects detection images based on histogram**, ***Seonwoo Lee,*** Insu Won, Sangmin Lee, and Jangwoo Kwon, *4*th* *International Conference on Information, System and Convergence Applications,* *Aug. 13 -18, 2017, Ulaanbaatar, Mongolia* "
+        [[params.information.list.items]]
+        details = "**3D 프린터 필라멘트 공급 제어 모니터링 시스템(Best paper),**, *3D Printer Filament Control Monitoring System,* *설현우,* ***이선우****, 정현기, and 권장우, *KSPE 2017 Autumn Conference, Dec. 13-15, 2017* "
+        [[params.information.list.items]]
+        details = "**다중노즐 3D 프린터의 모니터링 시스템을 활용한 사용자 맞춤형 근골격계 재활기기 소재에 관한 연구,** ***이선우***, 한현정, 최민석, 이선곤, 김주형, 김용래, and 권장우,  *12*th *RESKO Technical Conference 2018. Apr. 27-28, pp. 115-118*"
+        [[params.information.list.items]]
+        details = "**3D프린터 원격 제어 및 상태 모니터링 시스템,**, *3D Printer Remote Control And Condition Monitoring System,*, ***이선우***, 김주형, 이선곤, 권순원, 최민석, 한현정, 김용래, and 권장우, *KSPE 2018 Spring Conference, May. 9-11, 2018*"
+        [[params.information.list.items]]
+        details = "**온습도 조절 기능이 포함된 3D프린터 필라멘트 공급장치 모니터링 및 제어 시스템,**  *3D Printer Filament Supply Monitoring and Control System with Temperature and Humidity Control,*  *권순원,* ***이선우***, 김용래, 이선곤, 김주형, and 권장우,  *11*th *RESKO Technical Conference 2018, Nov. 08-10, 2018, pp. 110-112.*"
+        [[params.information.list.items]]
+        details = "**Development of Flexible-Capacitive Pressure sensor using Dual 3D printing**  ***Seon Woo Lee*** *, Sun Kon Lee, Hyung Do Kim, Soon Won Kwon, Hyun Jung Han, Min Seok Choi, Jang Woo Kwon,**  *The 3*rd* *International Workshop on Active Materials and Soft Mechatronics (AMSM2018), Oct. 23-26, 2018, KAIST, Daejeon, Korea*"
+        [[params.information.list.items]]
+        details = "**Abnormal Pedestrian Behavior Detection System Using Multiple Deep Convolutional Neural Networks (Best Paper Award),** *Lim Kuoy Suong, Yun Borin,* ***Lee SeonWoo*** *and Kwon Jangwoo,* *International Journal of Design, Analysis and Tools for Integrated Circuits and Systems, Vol. 7, Iss. 1, pp. 14-19. Oct, 2018, Taiwan*"
+        [[params.information.list.items]]
+        details = "**가상의 차량 번호판 생성을 통한 심층 신경망학습에 관한 최적 데이터 개수연구,**  *Optimal Numerical Research on Deep Neural Network Learning though Artificial Car License Plate Generation,*  ***이선우***, 사이드라술콘, 권장우, *한국ITS학회 2019년도 춘계학술대회, Apr. 18-20, Korea*"
+        [[params.information.list.items]]
+        details = "**The method of generating license plate data in a fixed camera environment by multiple histogram comparison and Grid Search(Best Paper Award)**,  *SeonWoo Lee, SoonWon Kwon, Jangwoo Kwon,*  *International Conference on Recent Advancements in Computing in AI, IoT and Computer Engineering Technology(CICET2019), 21-23,Oct, 2019, Taiwan*"
+
+
+        [[params.information.list]]
+        title = "Patent"
+        [[params.information.list.items]]        
+        details = "**규칙 기반 알고리즘을 이용한 대기질 데이터의 이상 판정 방법 및 시스템**, *Korea, 2021.05.28, 10-2021-0069289, Patent-pending*"
+        [[params.information.list.items]]        
+        details = "**지도 학습 모델 및 비지도 학습 모델의 앙상블 구조를 이용한 대기질 데이터의 이상 판정 방법 및 시스템**, *Korea, 2021.05.28, 10-2021-0069288, Patent-pending*"
+        [[params.information.list.items]]        
+        details = "**인공 지능을 이용한 설비의 예측 진단 방법**, *Korea, 2022.07.15, 10-2021-0092825, Patent-pending*"
+        [[params.information.list.items]]
+        details = "**3차원 프린터의 탈착이 용이한 베드,**, *Korea, 2018.06.18, 10-2018-0069693, Patent-pending*"
+        [[params.information.list.items]]
+        details = "**3D프린터의 탈착이 용이한 베드,**, *Korea, 2018.06.18, 10-2018-0069693, Patent-pending*" 
+        [[params.information.list.items]]        
+        details = "**열화상 영상의 이상치 온도 제거를 통한 자동 컬러맵 표현 방법**, *Korea, 2022.06.19, 10-2354704, Patent-registration*"
+        [[params.information.list.items]]        
+        details = "**실시간으로 노면을 모니터링하기 위한 전자 장치와 그의 동작 방법 및 그를 포함하는 시스템**, *Korea, 10-2363760, Patent-registration*"
+        [[params.information.list.items]]        
+        details = "**블랙 아이스를 검출하는 방법 및 장치**, *Korea, 2021-07-29, 10-2288312, Patent-Registeration*  "
+        [[params.information.list.items]]
+        details = "**딥러닝을 활용한 소변검사 방법**, *Korea, 2022-01-19, 10-2354702, Patent-registration*"
+        [[params.information.list.items]]
+        details = "**정류장 버스 승차위치 안내용 LED전광블록**, *Korea, 2020.11.27, 10-2186205, Patent-registration*  "
+        [[params.information.list.items]]
+        details = "**번호판 인식 방법 및 시스템**, *Korea, 2019.06.21, 10-2197930, Patent-registration*  기술이전"
+        [[params.information.list.items]]
+        details = "**대형 출력물의 프린팅을 위한 다중 3D 프린터의 프린팅 스케줄링 방법 및 시스템,**, *Korea, 2020-09-21, 10-2160192, Patent-registration* "
+        [[params.information.list.items]]
+        details = "**증강현실 기반 3D 프린터 유지보수 방법 및 시스템,**, *Korea, 2020.10.23, 10-2171691, Patent-registration*  "
+        [[params.information.list.items]]
+        details = "**펠티어 소자를 이용한 3D 프린터 출력물 탈착용 자동 히팅 베드 냉각 방법 및 시스템,**, *Korea, 2020-09-09, 10-2156086, Patent-registration* "
+        [[params.information.list.items]]
+        details = "**3D프린터 인쇄 정확도 향상을 위한 필라멘트 저장장치에 관한 방법,**, *Korea, 2020-05-06, 10-2109595, Patent-registration*  "
+        [[params.information.list.items]]
+        details = "**3D 프린터 이종 재료 출력을 위한 노즐 배합 시스템 구조 및 방법,**, *Korea, 2020.04.01, 10-2098192, Patent registration*"
+        [[params.information.list.items]]
+        details = "**증강현실을 이용한 3D 프린터 인쇄 물체 정보 표시 시스템 및 방법,**, *Korea, 2019.10.11, 10-2033399, Patent-registration*, 기술이전" 
+        [[params.information.list.items]]
+        details = "**FDM 3D 프린팅용 윤활제 자동 공급 장치,**, *Korea, 2020.06.23, 10-2128069, Patent-registration*" 
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/lee-seon-woo"
+        title = "GitHub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/seon-woo-lee-711575240"
+        title = "LINKEDIN"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//blog.naver.com/x21999"
+        title = "Blog"
+
+
+
+
+
