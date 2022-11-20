@@ -5,7 +5,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 # hugo -t <여러분의 테마>
 hugo -t hugo-devresume-theme
-
+cp avatar.png public/assets/images/avatar.png
 # Go To Public folder, sub module commit
 cd public
 # Add changes to git.
